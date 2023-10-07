@@ -51,7 +51,7 @@ For our dataset, we went through a thorough preprocessing phase to ensure that t
 The use of Adobe Premiere Pro ensured that our dataset contains high-quality images that accurately depict the post-wildfire scenarios. This preprocessing step, which included logo removal, was vital in maintaining the integrity and relevance of our dataset for deep learning model training.
 
 ***The Output Rendering Settings are as follows:***
-![Output Settings](static/Screenshot 2023-10-07 190409.png)
+![Output Settings](https://github.com/MadhavBohra/DroneBasedDisasterMonitoring/blob/master/static/Screenshot%202023-10-07%20190409.png)
 
 As the video was large to be uploaded on Google Drive, We uploaded the final video on Youtube as unlisted, [link](https://youtu.be/hCNhARWnXKY)
 
