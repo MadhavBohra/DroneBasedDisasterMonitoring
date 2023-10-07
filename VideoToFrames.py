@@ -17,6 +17,7 @@ def extract_frames(input_video_path, output_directory):
 
     # Initialize a frame counter
     frame_count = 0
+    count = 0
 
     while True:
         # Read a frame from the video
@@ -28,11 +29,12 @@ def extract_frames(input_video_path, output_directory):
 
         # Check if the current frame index is in the list of target indices
         if frame_count in frame_indices:
+            count = count + 1
             # Resize the frame to 128x128
             resized_frame = cv2.resize(frame, (256, 256))
 
             # Save the resized frame as an image
-            output_path = os.path.join(output_directory, f'w05_{frame_count:04d}.jpg')
+            output_path = os.path.join(output_directory, f'W5_{count:04d}.jpg')
             cv2.imwrite(output_path, resized_frame)
 
         # Increment the frame counter
@@ -47,6 +49,6 @@ def extract_frames(input_video_path, output_directory):
     cv2.destroyAllWindows()
 
 # Usage example:
-input_video_path = 'Input/Sequence 04.mp4'
-output_directory = 'data/images'
+input_video_path = 'Input/Sequence 05.mp4'
+output_directory = 'Output/Images'
 extract_frames(input_video_path, output_directory)

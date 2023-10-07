@@ -1,7 +1,7 @@
 # DroneBasedDisasterMonitoring
 
 ## Team Information
-- **Team Name:** ***W-5***
+- **Team Name:** ***W5***
 - **Team Members:** 
     - [MADHAV BOHRA](https://github.com/MadhavBohra) (BITS ID: 2021A2PS2155P, Mail: [f20212155@pilani.bits-pilani.ac.in](mailto:f20212155@pilani.bits-pilani.ac.in))
     - [VAL DIDAR SINGH](https://github.com/valdidar) (BITS ID: 2021A3PS2233P, Mail: [f20212233@pilani.bits-pilani.ac.in](mailto:f20212233@pilani.bits-pilani.ac.in))
@@ -51,9 +51,9 @@ For our dataset, we went through a thorough preprocessing phase to ensure that t
 The use of Adobe Premiere Pro ensured that our dataset contains high-quality images that accurately depict the post-wildfire scenarios. This preprocessing step, which included logo removal, was vital in maintaining the integrity and relevance of our dataset for deep learning model training.
 
 ***The Output Rendering Settings are as follows:***
-![Output Settings](https://example.com/project-logo.png)
+![Output Settings](static/Screenshot 2023-10-07 190409.png)
 
-As the video was large to be uploaded on Google Drive, We uploaded the final video on Youtube as unlisted, [link]()
+As the video was large to be uploaded on Google Drive, We uploaded the final video on Youtube as unlisted, [link](https://youtu.be/hCNhARWnXKY)
 
 
 #### Frame Extraction Process:
@@ -81,4 +81,4 @@ python VideoToFrames.py
 ```
 
 ## Submission Milestone #1
-Our team has compiled and consolidated our dataset of 600 images, each resized to 256x256 pixels, and stored them in `data/images`. Each image is logically named using our team's number as a prefix.
+Our team has compiled and consolidated our dataset of 600 images, each resized to 256x256 pixels, and stored them in `Output/Images`. Each image is logically named using our team's number as a prefix.
